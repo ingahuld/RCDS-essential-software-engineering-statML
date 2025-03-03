@@ -1,5 +1,5 @@
 def pivot_sort(arr):
-    if len(arr) < 2:
+    if len(arr) <= 1:
         return arr
     else:
         pivot = arr[0]
